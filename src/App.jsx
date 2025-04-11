@@ -1,7 +1,11 @@
+import Header from "./components/Header/Header";
+
 function App() {
   return (
     <>
-      <h1>Hellow World</h1>
+      <main className="font-lato">
+        <Header />
+      </main>
     </>
   );
 }
